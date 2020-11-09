@@ -6,9 +6,9 @@
 
 # 根目录下的 README 英文模板
 TEMPLATE_README_EN = '''
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
-<p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
+<p align="center"><img width="300" src="https://oss.macrohard.cn/img/gallery/leetcode.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/User-{user_name}-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/Solved-{num_solved}/{num_total}-blue.svg?" alt="">
@@ -32,9 +32,9 @@ TEMPLATE_README_EN = '''
 
 # 根目录下的 README 中文模板
 TEMPLATE_README_CN = '''
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
-<p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
+<p align="center"><img width="300" src="https://oss.macrohard.cn/img/gallery/leetcode.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-{user_name}-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/已解决-{num_solved}/{num_total}-blue.svg?" alt="">

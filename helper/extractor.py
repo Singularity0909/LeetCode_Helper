@@ -14,6 +14,7 @@ class Extractor:
     '''
     高速并发导出数据类
     '''
+
     def __init__(self, output_dir, author):
         self.output_dir = output_dir
         self.author = author
@@ -22,7 +23,7 @@ class Extractor:
         '''导出 LeetCode README 文件'''
         # 当前时间
         cur_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        readme_cn_path = os.path.join(self.output_dir, 'README.md')
+        readme_cn_path = os.path.join(self.output_dir, 'README_CN.md')
         with open(readme_cn_path, 'w', encoding='utf-8') as f:
             f.write(
                 TEMPLATE_README_CN.format(
@@ -56,7 +57,7 @@ class Extractor:
                                 '\n', '<br>')))
                     solutions = []
         print(f'{os.path.abspath(readme_cn_path)} done!')
-        readme_en_path = os.path.join(self.output_dir, 'README_EN.md')
+        readme_en_path = os.path.join(self.output_dir, 'README.md')
         with open(readme_en_path, 'w', encoding='utf-8') as f:
             f.write(
                 TEMPLATE_README_EN.format(
